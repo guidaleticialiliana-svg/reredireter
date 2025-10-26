@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // Reemplaza con tu link final
-const DESTINATION_URL = 'https://tu-repl.worf.replit.dev';
+const DESTINATION_URL = 'https://5b356756-fca8-4007-aa32-caf7fa92ecd6-00-gpqbwavyvlgg.picard.replit.dev/health';
 
 // Middleware para bloquear bots
 app.use((req, res, next) => {
